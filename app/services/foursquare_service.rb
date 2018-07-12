@@ -14,6 +14,6 @@ class FoursquareService
   end
 
 
-  def friends()
+  def friends(token)
   end
 end
