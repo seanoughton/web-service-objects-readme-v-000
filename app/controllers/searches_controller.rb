@@ -5,6 +5,7 @@ class SearchesController < ApplicationController
 
   def friends
     foursquare = FoursquareService.new
+    foursquare.friends(session[:token])
   end
 
   def foursquare
